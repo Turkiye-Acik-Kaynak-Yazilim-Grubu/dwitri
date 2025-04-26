@@ -5,7 +5,7 @@
 	}
 	include('config.php');
 	date_default_timezone_set('Asia/Jakarta');
-	define('SALT', '@AbyDahana is Awesome!');
+	define('SALT', '9P8l7a6y5e4r3D2u1d0e0s1');
 /**
  * CodeIgniter
  *
@@ -60,7 +60,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 
 /*
  *---------------------------------------------------------------
